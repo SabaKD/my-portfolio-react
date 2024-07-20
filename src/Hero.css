@@ -1,0 +1,96 @@
+.hero h1 {
+
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.hero h2 {
+
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3 {
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero,
+.aboutMeHero {
+    margin-top: 40px;
+    background-color: white;
+}
+
+.hero .p1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    max-width: 740px;
+    margin-top: 40px;
+
+
+}
+
+.hero .p2 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 740px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hero img {
+
+    max-width: 670px;
+    
+    
+}
+
+.black-rectangle {
+    background-color: var(--branding-color);
+    height: 110px;
+    text-align: center;
+    color: white;
+}
+
+
+.primary-button {
+    background-color: var(--branding-color);
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: var(--heading-font-family);
+    border-top: 2px solid #424141;
+
+    border-right: 2px solid #424141;
+    border-left: 2px solid #424141;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.primary-button:hover {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(73, 72, 72, 1) 100%);
+}
+
+.horizontal-line {
+    border: none;
+    border-top: 2.5px solid black;
+    margin: 0px 50px 0px 50px;
+
+}
