@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function FrontEndProjects(){
+export default function Contact(){
     return(
         <div>
-            FrontEndProjects
+            contact page
         </div>
     )
 }

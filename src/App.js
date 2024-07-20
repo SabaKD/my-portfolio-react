@@ -1,24 +1,30 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import NavigationBar from './NavigationBar';
-import Hero from './Hero';
-import UXProjects from './UXProjects';
-import FrontEndProjects from './FrontEndProjects';
-import Recommendations from './Recommendations';
-import AppointmentBooking from './AppointmentBooking';
-import NewFooter from './NewFooter';
+// import NavigationBar from './Components/NavigationBar';
+// import Hero from './Components/Hero';
+// import UXProjects from './Components/UXProjects';
+// import FrontEndProjects from './Components/FrontEndProjects';
+// import Recommendations from './Components/Recommendations';
+// import AppointmentBooking from './Components/AppointmentBooking';
+// import NewFooter from './Components/NewFooter';
+import Aboutme from './Components/Aboutme';
+import Contact from './Components/Contact';
+import HomePage from './Components/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <NavigationBar/>
-      <Hero/>
-      <UXProjects/>
-      <FrontEndProjects/>
-      <Recommendations/>
-      <AppointmentBooking/>
-      <NewFooter/>
-    </div>
+    <Router>
+      <div>
+        
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/AboutMe" element={<Aboutme />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

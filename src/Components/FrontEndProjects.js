@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function NewFooter(){
+export default function FrontEndProjects(){
     return(
         <div>
-            NewFooter
+            Coming soon...
         </div>
     )
 }

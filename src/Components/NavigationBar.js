@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./Images/Logo.png";
+import logo from "../Images/Logo.png";
 
 export default function NavigationBar(){
     return(
@@ -13,10 +13,10 @@ export default function NavigationBar(){
 
                 </li>
                 <li>
-                    <a href="#projects" className="navMenu" title="Saba's Projects" rel="noreferrer">Projects</a>
+                    <a href="/" className="navMenu" title="Saba's Projects" rel="noreferrer">Projects</a>
                 </li>
                 <li>
-                    <a href="/about.html" className="navMenu" title="About Saba" rel="noreferrer">About me</a>
+                    <a href="/Aboutme" className="navMenu" title="About Saba" rel="noreferrer">About me</a>
                 </li>
                 <li>
                     <a href="https://calendly.com/washingintroduction/30-mins-with-saba?month=2024-02"
