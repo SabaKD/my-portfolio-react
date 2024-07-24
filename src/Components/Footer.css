@@ -14,3 +14,14 @@
     font-weight: 400;
     margin: 40px 0;
 }
+.NewFooter .copyRight p {
+    background-color: var(--branding-color);
+    color: white;
+    text-align: left;
+    padding: 40px 80px;
+    margin-bottom: 0;
+
+}
+.NewFooter .copyRight a{
+    color: white;
+}
