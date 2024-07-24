@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 import logo from "../Images/Logo.png";
 
 export default function NavigationBar() {
-  const handleHashLinkClick = (e, id) => {
+  const handleHashLinkClick = (event, id) => {
     // Check if current location is homepage
     if (window.location.pathname === "/") {
-      e.preventDefault();
+      event.preventDefault();
       const element = document.getElementById(id);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({ behavior: 'smooth', block: "start"});
       }
     }
   };
@@ -25,7 +25,7 @@ export default function NavigationBar() {
             <li>
               <NavLink
                 exact
-                to="/#Hero"
+                to="/"
                 className="navMenu"
                 activeClassName="active"
                 title="Homepage"
@@ -36,9 +36,10 @@ export default function NavigationBar() {
             </li>
             <li>
               <NavLink
-                to="/#UXProjects"
-                className="navMenu deactive"
+                to="/"
+                className="navMenu"
                 title="Saba's UX Projects"
+                activeClassName="active"
                 rel="noreferrer"
                 isActive={() => false} // Prevent this link from getting the active class
                 onClick={(e) => handleHashLinkClick(e, 'UXProjects')}
@@ -48,8 +49,8 @@ export default function NavigationBar() {
             </li>
             <li>
               <NavLink
-                to="/#ReactProjects"
-                className="navMenu dis"
+                to="/"
+                className="navMenu"
                 title="Saba's React Projects"
                 rel="noreferrer"
                 isActive={() => false} // Prevent this link from getting the active class
@@ -61,7 +62,7 @@ export default function NavigationBar() {
             <li>
               <NavLink
                 to="/Aboutme"
-                className="navMenu dis"
+                className="navMenu"
                 activeClassName="active"
                 title="About Saba"
                 rel="noreferrer"
