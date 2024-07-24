@@ -5,6 +5,7 @@ export default function Aboutme(){
     return(
         <div>
             <NavigationBar/>
+            about me
         </div>
     )
 }

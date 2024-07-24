@@ -21,7 +21,7 @@ export default function Hero(){
                     <p className="p2">
                         Let me bring my unique blend of creativity and analytical thinking to elevate your userexperiences and contribute to
                         the success of your projects.</p>
-                    <a href="/" className=" btn primary-button">Contact me</a>
+                    <a href="/Contact" className=" btn primary-button">Contact me</a>
                 </div>
             </div>
         </div>

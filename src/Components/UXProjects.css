@@ -1,0 +1,35 @@
+
+.projects h2 {
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.projects h4 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.projects p {
+    color: var(--paragraph-font-color);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.projects a {
+    margin-bottom: 33px;
+}
+
+.project .col {
+    padding: 30px;
+}
+
+.project .row{
+    margin-top: 90px !important;
+}

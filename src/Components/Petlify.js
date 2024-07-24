@@ -1,11 +1,11 @@
 import React from "react";
 import NavigationBar from "./NavigationBar";
 
-export default function Aboutme(){
+export default function Petlify(){
     return(
         <div>
             <NavigationBar/>
-            contact
+            pet
         </div>
     )
 }
