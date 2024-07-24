@@ -19,6 +19,9 @@ a {
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(73, 72, 72, 1) 100%);
 }
+.NavigationBar{
+  background-color: #fff;
+}
 
 .NavigationBar .logo {
   max-width: 40px;
@@ -80,4 +83,7 @@ a {
 .heroImage {
   width: 636px;
   height: 360px;
+}
+html {
+  scroll-behavior: smooth;
 }

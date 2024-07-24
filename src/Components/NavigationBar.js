@@ -3,17 +3,22 @@ import logo from "../Images/Logo.png";
 
 export default function NavigationBar(){
     return(
-        <div className="NavigationBar">
+        <div className="NavigationBar sticky-top ">
         <div className="container">
         <nav className="d-flex justify-content-between">
+            <a href="/">
             <img src={logo} alt="Saba Logo" className="logo" rel="noreferrer"/>
+            </a>
             <ul>
                 <li>
                     <a href="/" className=" active navMenu" title="Homepage">Home</a>
 
                 </li>
                 <li>
-                    <a href="/" className="navMenu" title="Saba's Projects" rel="noreferrer">Projects</a>
+                    <a href="/#UXProjects" className="navMenu" title="Saba's UX Projects" rel="noreferrer">UX Projects</a>
+                </li>
+                <li>
+                    <a href="/#ReactProjects" className="navMenu" title="Saba's react Projects" rel="noreferrer">React Projects</a>
                 </li>
                 <li>
                     <a href="/Aboutme" className="navMenu" title="About Saba" rel="noreferrer">About me</a>

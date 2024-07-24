@@ -1,11 +1,12 @@
 import React from "react";
 import NavigationBar from "./NavigationBar";
+import UnderConstruction from "../Images/under-construction.png";
 
 export default function Aboutme(){
     return(
         <div>
             <NavigationBar/>
-            about me
+            <img src={UnderConstruction} className="w-100" alt="under construction"/>
         </div>
     )
 }

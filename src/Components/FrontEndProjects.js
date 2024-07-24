@@ -7,7 +7,7 @@ import "./FrontEndProjects.css";
 
 export default function FrontEndProjects(){
     return(
-        <div className="Frontprojects">
+        <div className="Frontprojects" id="ReactProjects">
         <div className="container">
             <h2>React Projects</h2>
             

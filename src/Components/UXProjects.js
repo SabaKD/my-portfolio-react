@@ -7,7 +7,7 @@ import "./UXProjects.css";
 
 export default function UXProjects(){
     return(
-        <div className="projects">
+        <div className="projects" id="UXProjects">
         <div className="container">
             <h2>Projects</h2>
             
