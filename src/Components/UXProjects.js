@@ -50,7 +50,7 @@ export default function UXProjects(){
                     <a href="/Asappz" className="btn primary-button">Read more</a>
                 </div>
             </div>
-            <div className="row">
+            <div className="row mb-5">
                 <div className="col">
                     <h4>Adaverse</h4>
                     <p>Adaverse Solutions is a England-based dynamic software development company that they help users
@@ -64,6 +64,7 @@ export default function UXProjects(){
                 </div>
             </div>
         </div>
+        <div class="black-rectangle"></div>
     </div>
         
     );

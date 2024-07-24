@@ -1,0 +1,38 @@
+.Frontprojects h2 {
+
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.Frontprojects h4 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.Frontprojects p {
+    color: var(--paragraph-font-color);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.Frontprojects a {
+    margin-bottom: 33px;
+}
+
+
+.Frontprojects .icon{
+    width: 40px;
+}
+.Frontprojects .primary-button{
+    margin-right: 10px;
+}
+
+.Frontprojects .heroImage{
+    border-radius: 20px;
+}
