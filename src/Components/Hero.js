@@ -4,7 +4,7 @@ import "../Hero.css";
 
 export default function Hero(){
     return(
-        <div className="hero">
+        <div className="hero" id="Hero">
         <div className="container">
             <div className="row">
                 <div className="col d-none d-xl-block">
