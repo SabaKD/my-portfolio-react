@@ -16,7 +16,6 @@ export default function AboutmeSkillset(){
                     <AboutmeTags tag={"Visual Design"} />
                     <AboutmeTags tag={"Information Architecture"} />
                     <AboutmeTags tag={"WCGA 2.0"} />
-                    
                     <AboutmeTags tag={"Interaction Design"} />
                     <AboutmeTags tag={"Design Systems"} />
                     <AboutmeTags tag={"Usability Test"} />

@@ -6,13 +6,7 @@
   --accent-color: #053154;
 
 }
-h1,
-h2,
-h3,
-h4,
-p,
-a,
-li {
+body {
   font-family: var(--heading-font-family);
 }
 

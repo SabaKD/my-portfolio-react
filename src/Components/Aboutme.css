@@ -31,12 +31,12 @@
     font-size: 24px;
     font-weight: 400;
 }
-ul li:not(:last-child) {
+.AboutmeHero ul li:not(:last-child) {
     margin-bottom: 30px;
    
 }
 .AboutmeSeperator{
-    margin: 180px 40px 90px 40px;
+    margin: 120px 40px 70px 40px;
    
 }
 
@@ -65,7 +65,7 @@ ul li:not(:last-child) {
 }
 .AboutmeSkillset .tags{
     display: flex;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 
 }
 .AboutmeSkillset .title {
@@ -81,4 +81,40 @@ ul li:not(:last-child) {
     margin: 0px 10px 10px 0px;
     border-radius: 50px;
     text-transform: capitalize;
+}
+
+.AboutmeHandleDescription .exp{
+    margin-bottom: 30px;
+}
+.AboutmeHandleDescription .date{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 6px;
+}
+.AboutmeHandleDescription .title{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.AboutmeHandleDescription .text {
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.AboutmeHandleDescription .subTitle {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.AboutmeHandleCertificates .title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.AboutmeHandleCertificates .text {
+    font-size: 20px;
+    font-weight: 400;
+}
+.AboutmeHandleCertificates .text strong {
+    font-size: 20px;
+    font-weight: 700;
 }
