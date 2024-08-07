@@ -1,3 +1,6 @@
+.AboutmeHero{
+    margin-top: 70px;
+}
 .AboutmeHero .icons{
     margin-top: 50px;
 }
@@ -32,3 +35,38 @@ ul li:not(:last-child) {
     margin-bottom: 30px;
    
 }
+.AboutmeSeperator{
+    margin: 180px 40px 90px 40px;
+   
+}
+
+.AboutmeSeperator h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--paragraph-font-color);
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: 1fr auto 7fr;
+    grid-template-rows: 16px 0;
+    grid-gap: 24px;
+}
+
+.AboutmeSeperator h1:after,
+.AboutmeSeperator h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #ccc;
+    background-color: #fff;
+}
+
+
+/* .AboutmeSeperator .title{
+    padding: 1px 24px;
+    background-color: white;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--paragraph-font-color);
+} */
