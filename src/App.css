@@ -1,7 +1,6 @@
 :root {
   --branding-color: black;
-  --heading-font-family: "Lato",
-    sans-serif;
+  --heading-font-family: 'Lato', sans-serif;
   --paragraph-font-color: #555;
   --background-text: #F7F6F7;
   --accent-color: rgb(45, 76, 29);
@@ -11,7 +10,8 @@ h2,
 h3,
 h4,
 p,
-a {
+a,
+li {
   font-family: var(--heading-font-family);
 }
 
@@ -61,7 +61,7 @@ a {
 
 }
 
-.NavigationBar .navMenu.active {
+.NavigationBar .navMenu .active {
   color: var(--branding-color);
   text-decoration: underline;
   ;

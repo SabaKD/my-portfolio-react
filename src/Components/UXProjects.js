@@ -17,7 +17,7 @@ export default function UXProjects(){
                 </div>
                 <div className="col">
                     <h4>Auction Website</h4>
-                    <p>BaT is an auction website tailored for enthusiasts who appreciate collecting valuable assets,
+                    <p>This is an auction website tailored for enthusiasts who appreciate collecting valuable assets,
                         catering to both
                         individuals seeking to auction their prized possessions and professional auctioneer companies.
                     </p>

@@ -39,7 +39,7 @@ export default function NavigationBar() {
                 to="/"
                 className="navMenu"
                 title="Saba's UX Projects"
-                activeClassName="active"
+                
                 rel="noreferrer"
                 isActive={() => false} // Prevent this link from getting the active class
                 onClick={(e) => handleHashLinkClick(e, 'UXProjects')}

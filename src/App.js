@@ -23,7 +23,7 @@ function App() {
           <Route path="/Auction" element={<Auction />} />
           <Route path='/PetApp' element={<Petlify/>} />
           <Route path='/Asappz' element={<Asappz/>}/>
-          <Route path='Adaverse' element={<Adaverse/>}/>
+          <Route path='/Adaverse' element={<Adaverse/>}/>
         </Routes>
       </div>
     </Router>
