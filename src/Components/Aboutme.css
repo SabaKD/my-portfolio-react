@@ -60,13 +60,25 @@ ul li:not(:last-child) {
     background-color: #fff;
 }
 
+.AboutmeSkillset .set{
+    margin-bottom: 50px;
+}
+.AboutmeSkillset .tags{
+    display: flex;
+        flex-wrap: wrap;
 
-/* .AboutmeSeperator .title{
-    padding: 1px 24px;
-    background-color: white;
-    text-align: center;
-    font-size: 28px;
-    font-style: normal;
+}
+.AboutmeSkillset .title {
+    font-size: 18px;
     font-weight: 700;
-    color: var(--paragraph-font-color);
-} */
+    padding-top: 6px;
+}
+.AboutmeTags{
+    font-size: 18px;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
