@@ -3,6 +3,12 @@ import AboutmeTags from "./AboutmeTags";
 
 
 export default function AboutmeSkillset(){
+    const tags= [
+        {
+            0 : "Design Thinking",
+            1 : "User Research"
+        }
+    ]
     return(
         <div className="container AboutmeSkillset">
             

@@ -70,6 +70,7 @@
 
 }
 .AboutmeSkillset .title {
+    text-align: right;
     font-size: 18px;
     font-weight: 700;
     padding-top: 6px;
@@ -88,6 +89,7 @@
     margin-bottom: 30px;
 }
 .AboutmeHandleDescription .date{
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
     padding-top: 6px;
@@ -111,8 +113,12 @@
     margin-bottom: 70px;
 }
 .AboutmeHandleCertificates .title{
+    text-transform: capitalize;
     font-size: 35px;
     font-weight: 700;
+}
+.AboutmeHandleCertificates img{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .AboutmeHandleCertificates .text {
     font-size: 20px;

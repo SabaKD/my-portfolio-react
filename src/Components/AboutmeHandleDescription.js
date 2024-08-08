@@ -7,10 +7,10 @@ export default function AboutmeHandleDescription(props){
         <div className="AboutmeHandleDescription">
             {props.description.map((des,index)=>(
             <div className="row exp">
-               <div className="col-2 date">
+               <div className="col-3 date">
                    {des.date}
                </div>
-               <div className="col-10 description">
+               <div className="col-9 description">
                    
                    <div className="title">
                    {des.title}
