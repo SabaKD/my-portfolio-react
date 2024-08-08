@@ -3,13 +3,15 @@
     margin-top: 70px;
 }
 .AboutmeHero .icons{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 .AboutmeHero .icon{
     margin-right: 30px;
 }
 .AboutmeHero img{
     width: 350px;
+    margin-left: 60px;
 }
 .AboutmeHero .text{
     margin-left: 220px;
@@ -25,7 +27,7 @@
     color: var(--paragraph-font-color);
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 135px;
+    margin-bottom: 110px;
 }
 .AboutmeHero li{
     
