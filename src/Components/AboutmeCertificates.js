@@ -5,6 +5,9 @@ import advui from "/Users/saba/Desktop/Shecodes/Portfolio/my-portfolio-react/src
 import funuxland from "../Images/UXLand.png";
 import figmeg from "../Images/FigmaMega.png";
 import introtocode from "../Images/IntroToCoding.png";
+import introtowebdev from "../Images/IntroToWebDev.png";
+import webdev from "../Images/Webdev.png";
+import adwebdev from "../Images/AdWebDev.png";
 
 
 
@@ -34,6 +37,30 @@ export default function AboutmeCertificates(){
             institute: "SheCodes",
             duration: "3 Weeks"
         },
+        {
+            pic: introtowebdev,
+            name: "Introduction to web development",
+            institute: "SheCodes",
+            duration: "3 Weeks"
+        },
+        {
+            pic: webdev,
+            name: "Web development",
+            institute: "SheCodes",
+            duration: "8 Weeks"
+        },
+        {
+            pic: adwebdev,
+            name: "Advanced web development",
+            institute: "SheCodes",
+            duration: "2 Weeks"
+        },
+        {
+            pic: webdev,
+            name: "Web development",
+            institute: "SheCodes",
+            duration: "8 Weeks"
+        }
     ]
     return(
         <div className="AboutmeCertificates container">
