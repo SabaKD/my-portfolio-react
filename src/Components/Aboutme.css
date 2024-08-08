@@ -61,19 +61,31 @@
     background-color: #fff;
 }
 
-.AboutmeSkillset .set{
+
+.AboutmeHandleTags .set {
     margin-bottom: 50px;
 }
-.AboutmeSkillset .tags{
+
+.AboutmeHandleTags .tags {
     display: flex;
     flex-wrap: wrap;
 
 }
-.AboutmeSkillset .title {
-    text-align: right;
+
+.AboutmeHandleTags .title {
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
     padding-top: 6px;
+}
+.AboutmeHandleTags .tag{
+    font-size: 18px;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 50px;
+    text-transform: capitalize;
 }
 .AboutmeTags{
     font-size: 18px;
