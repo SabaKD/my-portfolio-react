@@ -28,7 +28,7 @@ h3 {
 
 .hero .p1 {
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 400;
     max-width: 740px;
     margin-top: 40px;
 
@@ -47,7 +47,7 @@ h3 {
 strong {
     font-size: 25px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .hero img {

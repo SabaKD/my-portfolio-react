@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../Images/croped pic.jpg";
-import "../Hero.css";
+import "./Hero.css";
 
 export default function Hero(){
     return(
