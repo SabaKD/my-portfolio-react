@@ -1,7 +1,7 @@
 
 import React from "react";
 import AboutmeHandleCertificates from "./AboutmeHandleCertificates";
-import advui from "/Users/saba/Desktop/Shecodes/Portfolio/my-portfolio-react/src/Images/AdvanceUI.png";
+import advui from "../Images/AdvanceUI.png";
 import funuxland from "../Images/UXLand.png";
 import figmeg from "../Images/FigmaMega.png";
 import introtocode from "../Images/IntroToCoding.png";
