@@ -4,12 +4,13 @@ import pet from "../Images/Petlify banner.png";
 import asappz from "../Images/Assapz banner.png";
 import ada from "../Images/Adaverse banner.png";
 import "./UXProjects.css";
+import HomepageTitle from "./HomepageTitle";
 
 export default function UXProjects(){
     return(
         <div className="projects" id="UXProjects">
         <div className="container">
-            <h2>Projects</h2>
+            <HomepageTitle title={"UX Projects"}/>
             
             <div className="row mb-5">
                 <div className="col d-none d-xl-block">

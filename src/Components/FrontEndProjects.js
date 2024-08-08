@@ -4,12 +4,13 @@ import dic from "../Images/Dictionary.png";
 import gitlogo from "../Images/github-icon.svg";
 import netlogo from "../Images/netlify-icon.svg";
 import "./FrontEndProjects.css";
+import HomepageTitle from "./HomepageTitle";
 
 export default function FrontEndProjects(){
     return(
         <div className="Frontprojects" id="ReactProjects">
         <div className="container">
-            <h2>React Projects</h2>
+            <HomepageTitle title={"React Projects"}/>
             
             <div className="row mb-5">
                 <div className="col d-none d-xl-block">
