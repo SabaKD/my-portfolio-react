@@ -34,3 +34,10 @@
 .project .row{
     margin-top: 90px !important;
 }
+
+@media (max-width: 1000px){
+    .projects h4 {
+            font-size: 40px;
+        }
+    
+}

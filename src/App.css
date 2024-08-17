@@ -14,71 +14,7 @@ body {
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(73, 72, 72, 1) 100%);
 }
-.NavigationBar{
-  background-color: #fff;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
-}
 
-.NavigationBar .logo {
-  max-width: 40px;
-  max-height: 100px;
-}
-
-
-.NavigationBar nav ul {
-  margin-top: 20px;
-  padding: 0;
-}
-
-.NavigationBar nav li {
-  display: inline;
-  list-style: none;
-  margin-left: 40px;
-
-}
-
-.NavigationBar .navMenu {
-  font-size: 18px;
-  color: #555;
-  text-decoration: none;
-  transition: all 150s ease-in-out;
-
-}
-
-.NavigationBar .navMenu .dis {
-  font-size: 18px;
-  color: #555;
-  text-decoration: none;
-   
-}
-.NavigationBar .navMenu:hover {
-  color: var(--branding-color);
-  text-decoration: underline;
-
-}
-
-.NavigationBar .navMenu .active {
-  color: var(--branding-color);
-  text-decoration: underline;
-  ;
-}
-
-.NavigationBar .primary-button{
-    background-color: var(--branding-color);
-    padding: 10px 15px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    color: white;
-    font-size: 15px;
-    font-family: var(--heading-font-family);
-    border-top: 2px solid #424141;
-  
-    border-right: 2px solid #424141;
-    border-left: 2px solid #424141;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
 
 
 
@@ -112,4 +48,13 @@ html {
   display: block;
   border-bottom: 2px solid #ccc;
   background-color: #fff;
+}
+
+@media (max-width : 1000px){
+  .HomepageTitle h1{
+    font-size: 50px;
+    grid-template-rows: 40px 0;
+  }
+    
+
 }

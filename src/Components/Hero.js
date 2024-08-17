@@ -13,7 +13,7 @@ export default function Hero(){
                 <div className="col">
                     <h1>Saba Zadeh</h1>
                     <h3>UX/UI Designer</h3>
-                    <p className="p1">With over <strong>four</strong> years of UX design experience, I blend <strong>fast
+                    <p className="p1">With over <strong>five</strong> years of UX design experience, I blend <strong>fast
                             learning</strong> with <strong>creative</strong> flair. My mathematical foundation sharpens my <strong>problem-solving</strong> skills, allowing me to approach design challenges with
                         precision
                         and create <strong>user-centered</strong> designs for my clients.

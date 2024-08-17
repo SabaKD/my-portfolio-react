@@ -93,3 +93,8 @@ strong {
     margin: 0px 50px 0px 50px;
 
 }
+@media (max-width: 1000px){
+    .hero a{
+        margin-bottom: 20px;
+    }
+}

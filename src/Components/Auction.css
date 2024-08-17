@@ -25,11 +25,54 @@
     
 }
 .Auction .secTwo{
-    height: 920px;
+    height: 720px;
     padding: 170px 140px 17px 140px;
     background: linear-gradient(90deg, rgba(221, 221, 221, 1) 0%, rgba(231, 231, 231, 1) 12%, rgba(255, 255, 255, 1) 100%);
 }
 .Auction .secTwo .text{
     font-size: 18px;
     max-width: 600px;
+}
+
+.Auction .secThree .pics{
+    padding: 80px 250px;
+}
+.Auction .secThree .pic3{
+    max-width: 400px;
+     
+}
+.Auction .secThree .bl{
+    margin-top: 55px;
+}
+.Auction .secThree .textPart{
+    max-width: 900px;
+    text-align: center;
+}
+.Auction .secThree .paragraph{
+    font-size: 20px;
+    max-width: 900px;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 350;
+}
+.Auction .secThree .paragraph strong{
+    font-size: 20px;
+    max-width: 900px;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.Auction .secThree .title1 {
+    font-size: 40px;
+    max-width: 900px;
+    text-align: left;
+    margin: 60px 0px 30px 0px;
+    font-weight: 700;
+}
+.Auction .secThree .title2 {
+    font-size: 30px;
+    max-width: 900px;
+    text-align: left;
+    margin: 40px 0px 20px 0px;
+    font-weight: 700;
 }
