@@ -7,9 +7,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import pic2 from "../Images/auction2.png";
 import "./Auction.css";
 import ProjectsTitle from "./ProjectsTitle";
-import pic3r from "../Images/A3-r.png";
-import pic3bl from "../Images/A3-bl.png";
-import pic3tl from "../Images/A3-tl.png";
+
 import affinity from "../Images/affinity.png";
 import sketch from "../Images/sketch.png";
 import persona from "../Images/persona.png";
@@ -60,21 +58,8 @@ export default function Auction(){
             <div className="secThree container">
                 <div className="ProjectOverview">
                     <ProjectsTitle title={"Project Overview"} size={"50px"}/>
-                    <div className="row pics">
-                        <div className="col">
-                            <div className="row">
-
-                            <img src={pic3tl} alt="Car" className="pic3 tl"/>
-                            </div>
-                            <div className="row">
-
-                            <img src={pic3bl} alt="Car" className="pic3 bl"/>
-                            </div>
-                        </div>
-                        <div className="col">
-
-                        <img src={pic3r} alt="Car" className="pic3 tbr"/>
-                        </div>
+                    <div className="pics">
+                        <img src={overview} alt="car"/>
 
                     </div>
 

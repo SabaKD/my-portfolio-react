@@ -4,7 +4,7 @@
 }
 .Auction .secOne .row{
     margin: 0 auto;
-        justify-content: center;
+    justify-content: center;
 }
 .Auction .secOne .pix{
     text-align: right;
@@ -29,7 +29,8 @@
 }
 .Auction .secTwo{
     
-    padding: 170px 140px 80px 140px;
+    padding-top: 160px;
+    padding-bottom: 50px;
     
     
     background: linear-gradient(90deg, rgba(221, 221, 221, 1) 0%, rgba(231, 231, 231, 1) 12%, rgba(255, 255, 255, 1) 100%);
@@ -42,17 +43,16 @@
     font-size: 18px;
     max-width: 600px;
 }
-
+.Auction .secThree{
+    max-width: 940px;
+    margin: 0 auto;
+}
 .Auction .secThree .pics{
-    padding: 80px 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.Auction .secThree .pic3{
-    max-width: 400px;
-     
-}
-.Auction .secThree .bl{
-    margin-top: 55px;
-}
+
+
 .Auction .secThree .ProjectCaseStudy{
     text-align: center;
     align-items: center;
@@ -77,11 +77,9 @@
 .Auction .secThree .paragraph {
     font-size: 20px;
     width: 100%;
-    /* Ensure the paragraph takes full width of .textBox */
     text-align: left;
     font-weight: 350;
     margin-bottom: 20px;
-    /* Adds spacing between paragraphs */
 }
 
 .Auction .secThree .paragraph strong {
