@@ -29,11 +29,11 @@ export default function Auction(){
                 </div>
                 <div className="col">
 
-                <a href="/" className=" btn secondary-button upper mb-5">Project Overview
+                <a href="#ProjectOverview" className=" btn secondary-button upper mb-5">Project Overview
                 <FaArrowRight size={20} color="#000000" />
                 </a>
                 <br/>
-                <a href="/" className=" btn secondary-button lower">Project Case Study
+                <a href="#ProjectCaseStudy" className=" btn secondary-button lower">Project Case Study
                 <FaArrowRight size={20} color="#000000" />
                 </a>
                 </div>
@@ -56,7 +56,7 @@ export default function Auction(){
                 </div>
             </div>
             <div className="secThree container">
-                <div className="ProjectOverview">
+                <div className="ProjectOverview" id="ProjectOverview">
                     <ProjectsTitle title={"Project Overview"} size={"50px"}/>
                     <div className="pics">
                         <img src={overview} alt="car"/>
@@ -64,7 +64,7 @@ export default function Auction(){
                     </div>
 
                 </div>
-                <div className="ProjectCaseStudy">
+                <div className="ProjectCaseStudy" id="ProjectCaseStudy">
                     <ProjectsTitle title={"Project Case Study"} size={"50px"}/>
                     <div className="textBox">
                         <div className="paragraph">
